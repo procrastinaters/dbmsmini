@@ -1,2 +1,2 @@
-# dbmsmini
+# DBMSmini
 DBMS mini project
