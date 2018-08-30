@@ -1,0 +1,120 @@
+.body
+{
+	position: relative;
+}
+
+/*
+.section
+{
+	border: solid;
+	border-radius: 30px;
+	top: 100px; 
+}
+*/
+
+
+.form_group
+{
+	font-family: Georgia;
+	font-size: 1.5rem;
+}
+
+.form_input
+{
+		font-size: 1.5rem;
+		padding: 0.25rem 0.5rem;
+		color:inherit;
+		font-family: Lato;
+		border-radius: 2px;
+		background-color: #D2D2D2;
+		border: none;
+		border-bottom: 3px solid transparent ;
+		width: 15%;
+		display: block;	
+}
+
+.form_input:focus
+{
+	outline: none;
+	box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);	
+	border-bottom: 3px solid green;
+}
+
+.form_input:focus:invalid
+{
+	border-bottom: 3px solid red;
+}
+
+
+.option
+{
+	margin-left: 45%;
+	margin-top: 100px;
+}
+
+.option1
+{
+	margin-left: 40%;
+	margin-top: 30px;
+}
+
+.rb2
+{
+	margin-left: 60px;
+}
+
+.form_label1
+{
+	position: absolute;
+    top: 70px;
+    margin-left: 40% ;
+}
+
+.first
+{
+    margin-top: 30px;
+    margin-left: 50% ;
+}
+
+.form_label2
+{
+	position: absolute;
+    top: 140px;
+    margin-left: 40% ;
+}
+
+.second
+{
+    margin-top:30px;
+    margin-left: 50% ;
+}
+
+.form_label3
+{
+	position: absolute;
+    top: 210px;
+    margin-left: 40% ;
+}
+
+.form_label4
+{
+	position: absolute;
+    top: 340px;
+    margin-left: 40% ;
+}
+
+.form_label5
+{
+	position: absolute;
+    top: 410px;
+    margin-left: 40% ;
+}
+
+.submit
+{
+	position: absolute;
+	top: 480px;
+	left:50%;
+	border-radius: 6rem;
+	
+}

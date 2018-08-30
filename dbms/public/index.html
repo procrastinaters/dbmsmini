@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IndiaHikes</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/tonystar/float-label-css/v1.0.2/dist/float-label.min.css"/>
+    </head>
+    <body>
+        <div class="form">
+        <form class="login">
+  
+            <div class="title">
+                Sign Up
+            </div>
+            <div class="elements">
+            <div class="styled-input name">
+                <input type="text" required />
+                <label>Name</label>
+                <span></span> </div>              
+                <div class="styled-input validate-input name">
+                        <input type="email" required />
+                        <label>Email</label>
+                <span></span> </div>
+                <div class="styled-input name">
+                        <input type="text" required />
+                        <label>Username</label>
+                <span></span> </div>  
+                <div class="styled-input validate-input name">
+                        <input type="password" required />
+                        <label>Password</label>
+                <span></span> </div>  
+                <div class="btns">  
+                <button class="signup">
+                    <div class="btntext">
+                        SIGN UP
+                    </div>
+                </button>
+                <button class="loginbtn">
+                        <div class="logintext">
+                            Registered already?<br/><u>Login</u>
+                        </div>
+                    </button>
+            </div>
+            </div>
+            </form>
+        </div>
+        
+        <!-- <footer class="text"><div class="innerFooter">&#169Copyright PICT</div></footer> -->
+        <script src="/socket.io/socket.io.js"></script> 
+        <script src="js/index.js"></script> 
+    </body>
+    
+</html>

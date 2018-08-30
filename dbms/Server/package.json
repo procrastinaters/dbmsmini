@@ -1,0 +1,19 @@
+{
+  "name": "mini",
+  "version": "1.0.0",
+  "description": "DBMS mini project",
+  "main": "server.js",
+  "scripts": {
+    "compile:sass": "node-sass /home/aniket/Project/public/sass/main.scss /home/aniket/Project/public/css/style.css -w"
+  },
+  "author": "Aniket Patil",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.2",
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "mysql": "^2.16.0",
+    "socket.io": "^2.1.1"
+  }
+}

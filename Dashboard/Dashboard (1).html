@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Dashboard</title>
+    <script type="text/javascript" src="Dashboard.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <header class="header1">
+
+             <div class="logo">
+                <img src="Stock_Icon.png" alt="trillo logo" class="Logo_Img" >
+             </div>
+
+             <div class="user_nav">
+
+              <div id="wrap">
+                  <form action="" autocomplete="on">
+                  <input type="text" id="search" name="search" onkeyup="myFunction()" placeholder="What're we looking for ?">
+                  <input id="search_submit" value="Rechercher" type="submit">
+                  <i class="fa fa-search fa-2x" style="color:#fff; margin-top:2rem;"></i>
+
+                  </form>
+              </div>
+
+              <a href="#">
+                <i class="fa fa-shopping-cart fa-2x" style="color:#fff"></i>
+              </a>
+
+              <a href="#">
+                <i class="fa fa-power-off fa-2x" style="color:#fff"></i>
+              </a>
+
+            </div>
+
+    </header>
+
+
+	<nav class="nav-collapse" role="navigation">
+    <ul class="tabs primary-nav">
+        <li class="tabs__item">
+            <a href="Dashboard.html" class="tabs__link">
+                <i class="fa fa-home" style="color:#fff"></i>    Home
+            </a>
+        </li>
+        <li class="tabs__item">
+            <a href="#" class="tabs__link">
+                <i class="fa fa-user" style="color:#fff"></i>    Profile
+            </a>
+        </li>
+        <li class="tabs__item">
+            <a href="#" class="tabs__link">
+                <i class="fa fa-newspaper-o" style="color:#fff"></i>    News
+            </a>
+        </li>
+        <li class="tabs__item">
+            <a href="#" class="tabs__link">
+                <i class="fa fa-line-chart" style="color:#fff"></i>    Stock Analysis
+            </a>
+        </li>
+        <li class="tabs__item">
+            <a href="#" class="tabs__link">
+                <i class="fa fa-briefcase" style="color:#fff"></i>    My Portfolio
+            </a>
+        </li>
+    </ul>
+    </nav>
+
+    <div class="Ticker-Scroll">
+
+    </div>
+
+    <div class="Content">
+
+      <div class="Table-Box"cstyle="margin-top : 100px;">
+
+      <div id="TableHeader" >
+        <table id="table1">
+          <tr>
+            <th>Ticker</th>
+            <th>Current Market Price</th>
+            <th>Change over previous close</th>
+            <th>% Change over previous close</th>
+          </tr>
+        </table>
+        </div>
+
+        <div id="TableContent">
+        <table id="table2">
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          <tr class="Stocks">
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+            <td>Rutuja</td>
+          </tr>
+          </table>
+        </div >
+       </div>
+
+      <div class="Expert-Panel-Box">
+        <div class="Expert-Panel" style="max-width:500px">
+          <img class="mySlides" src="img/SPTulsian.jpg" style="width:100%">
+            <div class="text-block">
+            <h4>S P Tulsian</h4>
+            <p></p>
+          </div>
+          <img class="mySlides" src="img/AshwaniGujral.jpg" style="width:100%">
+          <div class="text-block">
+            <h4>ashwani Gujral</h4>
+            <p>What a beautiful sunrise</p>
+          </div>
+        </div>
+
+        <script >
+        carousel();
+        </script>
+      </div>
+
+    </div>
+    
+
+
+    <footer class="flex-rw">
+  
+      <ul class="footer-list-top">
+        <li>
+          <h4 class="footer-list-header">About StockHub</h4></li>
+        
+        <li>
+          <h4 class="footer-list-header">Terms And Conditions</h4></li>
+      </ul>
+
+      <section class="footer-social-section flex-rw">
+          <span class="footer-social-overlap footer-social-connect">
+          CONNECT <span class="footer-social-small">with</span> US
+          </span>
+          <span class="footer-social-overlap footer-social-icons-wrapper">
+          <a href="https://www.pinterest.com" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+          <a href="https://www.facebook.com" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+          <a href="http://instagram.com" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.youtube.com" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+          <a href="https://plus.google.com" class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+          </span>
+      </section>
+
+</footer>
+		
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="javascr.js"></script>    
+
+	<title>Buy and sell</title>
+</head>
+<body class="body">
+	<div class="section">
+	<form action="#" class="form">
+		<div class="form_group option">
+			<input type="radio" name="rb" value="buy"> Buy
+ 			<input type="radio" class="rb2" name="rb" value="sell"> Sell
+  		</div>	
+		<div class="form_group">
+			<input type="text" id="account" class="form_input first" placeholder="Account" required>
+			<label for="account" class="form_label1">Account</label>
+		</div>
+
+		<div class="form_group">
+			<input type="text" id="stockid" class="form_input second" placeholder="Stock ID" required>
+			<label for="stockid" class="form_label2">Stock ID</label>
+		</div>
+
+		<div class="form_group">
+			<input type="text" id="quantity" class="form_input second" placeholder="Quantity" value="0">
+			<label for="quantity" class="form_label3">Quantity</label>
+		</div>
+
+
+		<div class="form_group option1">
+			<label>Order type    :</label>
+			<input type="radio" name="rb1" value="market"> Market
+ 			<input type="radio" class="rb2" name="rb1" value="limit"> Limit
+  		</div>	
+
+
+		<div class="form_group">
+			<input type="text" id="limit" class="form_input second" placeholder="Limit" value="0">
+			<label for="limit" class="form_label4">Limit</label>
+		</div>
+
+		<div class="form_group">
+			<input type="text" id="value" class="form_input second" placeholder="Value" value="0">
+			<label for="value" class="form_label5">Value</label>
+		</div>
+
+		<button type="submit" class="submit" form="form" value="Submit">Submit</button>
+
+	</form>
+	</div>
+</body>
+</html>
